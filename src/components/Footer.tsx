@@ -1,12 +1,12 @@
 
 import React from 'react';
-import { GitHub, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
-    { icon: GitHub, href: 'https://github.com/JatothRampandu', ariaLabel: 'GitHub' },
+    { icon: Github, href: 'https://github.com/JatothRampandu', ariaLabel: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/jatoth-rampandu/', ariaLabel: 'LinkedIn' },
     { icon: Mail, href: 'mailto:rampandu8328@gmail.com', ariaLabel: 'Email' },
     { icon: Phone, href: 'tel:+918328191310', ariaLabel: 'Phone' },

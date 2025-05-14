@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { ExternalLink, GitHub } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -110,7 +109,7 @@ const Projects = () => {
                     rel="noreferrer"
                     className="flex items-center text-sm text-gray-300 hover:text-orange transition-colors"
                   >
-                    <GitHub size={16} className="mr-1" />
+                    <Github size={16} className="mr-1" />
                     Code
                   </a>
                   <a 
