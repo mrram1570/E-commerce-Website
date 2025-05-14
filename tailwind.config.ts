@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				navy: {
+					DEFAULT: '#0B1A2F',
+					light: '#1A2B42'
+				},
+				orange: {
+					DEFAULT: '#FF7B29',
+					light: '#FFA765'
+				},
+				teal: {
+					DEFAULT: '#2ECFCA',
+					light: '#68E5E1'
 				}
 			},
 			borderRadius: {
@@ -84,11 +97,25 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': { opacity: '0', transform: 'translateY(20px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				'slide-from-right': {
+					'0%': { transform: 'translateX(30px)', opacity: '0' },
+					'100%': { transform: 'translateX(0)', opacity: '1' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out',
+				'slide-from-right': 'slide-from-right 0.5s ease-out'
+			},
+			fontFamily: {
+				'manrope': ['Manrope', 'sans-serif'],
+				'poppins': ['Poppins', 'sans-serif']
 			}
 		}
 	},
