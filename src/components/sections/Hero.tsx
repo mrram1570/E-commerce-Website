@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="order-1 md:order-2 flex justify-center md:justify-end animate-slide-from-right">
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-orange/20 to-teal/20 p-2">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&h=600" 
+                src="/lovable-uploads/6bcc28ea-82a4-468c-8008-4c9f9aa037bf.png" 
                 alt="Jatoth Rampandu" 
                 className="rounded-full w-full h-full object-cover border-4 border-navy"
               />
