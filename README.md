@@ -83,7 +83,7 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [github](https://github.com/mrram1570/rampandu-digital-forge.git) and click on Share -> Publish.
+firstly create a new file in file manager as [rams] then copy the path  and open the git bash paste the path  [C:\rams] ofter that   use the command of git clone https://github.com/mrram1570/rampandu-digital-forge.git it show that git is clone then next command ls defalt file name [rampandu-digital-forge]  ofter that  open the file in vs code  and open new terminal "npm install" ofter that next command npm run dev  it show the links like https://locall.host/8080/  then open any browser amd  paste the link  then go to localhost   green color check box click on it and it show the output of portfolio website 
 
 ## Can I connect a custom domain to the project?
 
