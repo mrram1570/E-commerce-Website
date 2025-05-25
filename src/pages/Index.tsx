@@ -1,25 +1,21 @@
 
-import React from "react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import Hero from "@/components/sections/Hero";
-import About from "@/components/sections/About";
-import Experience from "@/components/sections/Experience";
-import Projects from "@/components/sections/Projects";
-import Services from "@/components/sections/Services";
-import Contact from "@/components/sections/Contact";
+import React from 'react';
+import Navbar from '@/components/ecommerce/Navbar';
+import Footer from '@/components/ecommerce/Footer';
+import HeroSection from '@/components/ecommerce/HeroSection';
+import FeaturedProducts from '@/components/ecommerce/FeaturedProducts';
+import CategoryShowcase from '@/components/ecommerce/CategoryShowcase';
+import Newsletter from '@/components/ecommerce/Newsletter';
 
 const Index = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
       <main>
-        <Hero />
-        <About />
-        <Experience />
-        <Projects />
-        <Services />
-        <Contact />
+        <HeroSection />
+        <CategoryShowcase />
+        <FeaturedProducts />
+        <Newsletter />
       </main>
       <Footer />
     </div>
