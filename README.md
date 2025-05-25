@@ -2,18 +2,39 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/b6200fc5-db37-462e-a622-073ca0f73608
+**URL**: https://github.com/mrram1570/rampandu-digital-forge.git
+# Welcome to Rampandu's Portfolio Website Project
 
-## How can I edit this code?
+## Project Info
 
-There are several ways of editing your application.
+**URL**: [GitHub Repository](https://github.com/mrram1570/rampandu-digital-forge.git)
 
-**Use Lovable**
+## How Can I Edit This Code?
 
-Simply visit the [github link repository ]() and start prompting.
+There are several ways to edit your application:
 
-Changes will be committed automatically to this repo.
+### Use Lovable
 
+Simply visit the [GitHub repository](https://github.com/mrram1570/rampandu-digital-forge.git) and start prompting. Changes will be committed automatically to this repo.
+
+### Use Your Preferred IDE
+
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable. The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone https://github.com/mrram1570/rampandu-digital-forge.git
+
+# Step 2: Navigate to the project directory.
+cd rampandu-digital-forge
+
+# Step 3: Install the necessary dependencies.
+npm install
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 **Use your preferred IDE**
 
 If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
@@ -62,12 +83,12 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/b6200fc5-db37-462e-a622-073ca0f73608) and click on Share -> Publish.
+Simply open [github](https://github.com/mrram1570/rampandu-digital-forge.git) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
+## Can I connect a custom domain to the project?
 
 Yes, you can!
 
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Read more here: [Setting up a custom domain](link)
