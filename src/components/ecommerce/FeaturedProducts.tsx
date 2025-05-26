@@ -8,7 +8,7 @@ const FeaturedProducts = () => {
       name: "Sequin Bodycon Dress",
       price: 2499,
       originalPrice: 3999,
-      image: "https://images.unsplash.com/photo-1618932260643-eee4a2f652a6?w=400&h=600&fit=crop",
+      image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=600&fit=crop&q=80",
       category: "party-dresses",
       isNew: true,
       isSale: true
@@ -17,7 +17,7 @@ const FeaturedProducts = () => {
       id: 2,
       name: "Glamour Night Gown",
       price: 4999,
-      image: "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=400&h=600&fit=crop",
+      image: "https://images.unsplash.com/photo-1566479179817-c0d956be1cb1?w=400&h=600&fit=crop&q=80",
       category: "party-dresses",
       isNew: false,
       isSale: false
@@ -26,7 +26,7 @@ const FeaturedProducts = () => {
       id: 3,
       name: "Club Mesh Dress",
       price: 1899,
-      image: "https://images.unsplash.com/photo-1495385794356-15371f348c31?w=400&h=600&fit=crop",
+      image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&h=600&fit=crop&q=80",
       category: "club-wear",
       isNew: true,
       isSale: false
@@ -36,7 +36,7 @@ const FeaturedProducts = () => {
       name: "Runway Model Dress",
       price: 6999,
       originalPrice: 9999,
-      image: "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=600&fit=crop",
+      image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=600&fit=crop&q=80",
       category: "modeling-wear",
       isNew: false,
       isSale: true

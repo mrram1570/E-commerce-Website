@@ -7,21 +7,21 @@ const CategoryShowcase = () => {
       id: 'party-dresses',
       name: 'Party Dresses',
       description: 'Stunning dresses for unforgettable nights',
-      image: 'https://images.unsplash.com/photo-1594736797933-d0c62bee7cd4?w=400&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1566479179817-c0d956be1cb1?w=400&h=600&fit=crop&q=80',
       count: '300+ styles'
     },
     {
       id: 'club-wear',
       name: 'Club Wear',
       description: 'Bold outfits for the dance floor',
-      image: 'https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=400&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&h=600&fit=crop&q=80',
       count: '200+ designs'
     },
     {
       id: 'modeling-wear',
       name: 'Modeling Wear',
       description: 'Professional runway and photoshoot attire',
-      image: 'https://images.unsplash.com/photo-1621479394126-c4fb3ebcd6da?w=400&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=600&fit=crop&q=80',
       count: '150+ pieces'
     }
   ];
