@@ -9,63 +9,82 @@ interface ProductGridProps {
 }
 
 const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory, priceRange }) => {
-  // Sample product data
+  // Traditional wear product data
   const products = [
     {
       id: 1,
-      name: "Midnight Glamour Dress",
-      price: 299,
-      originalPrice: 399,
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400",
-      category: "dresses",
+      name: "Banarasi Silk Saree",
+      price: 4999,
+      originalPrice: 7999,
+      image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400",
+      category: "sarees",
       isNew: true,
       isSale: true
     },
     {
       id: 2,
-      name: "Sequin Party Dress",
-      price: 249,
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400",
-      category: "dresses",
+      name: "Kanjeevaram Wedding Saree",
+      price: 8999,
+      image: "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=400",
+      category: "sarees",
       isNew: false,
       isSale: false
     },
     {
       id: 3,
-      name: "Velvet Bodycon Dress",
-      price: 189,
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=400",
-      category: "dresses",
+      name: "Designer Half Saree",
+      price: 3499,
+      image: "https://images.unsplash.com/photo-1594736797933-d0c62bee7cd4?w=400",
+      category: "half-sarees",
       isNew: true,
       isSale: false
     },
     {
       id: 4,
-      name: "Gold Statement Earrings",
-      price: 89,
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400",
-      category: "accessories",
+      name: "Georgette Party Saree",
+      price: 2899,
+      image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400",
+      category: "sarees",
       isNew: false,
       isSale: false
     },
     {
       id: 5,
-      name: "Crystal Clutch Bag",
-      price: 159,
-      originalPrice: 199,
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400",
-      category: "accessories",
+      name: "Bridal Lehenga Set",
+      price: 12999,
+      originalPrice: 18999,
+      image: "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=400",
+      category: "lehengas",
       isNew: false,
       isSale: true
     },
     {
       id: 6,
-      name: "Stiletto Heels",
-      price: 129,
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=400",
-      category: "shoes",
+      name: "Cotton Handloom Saree",
+      price: 1299,
+      image: "https://images.unsplash.com/photo-1594736797933-d0c62bee7cd4?w=400",
+      category: "sarees",
       isNew: true,
       isSale: false
+    },
+    {
+      id: 7,
+      name: "Chanderi Silk Saree",
+      price: 3799,
+      image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400",
+      category: "sarees",
+      isNew: false,
+      isSale: false
+    },
+    {
+      id: 8,
+      name: "Pattu Half Saree",
+      price: 4599,
+      originalPrice: 6999,
+      image: "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=400",
+      category: "half-sarees",
+      isNew: true,
+      isSale: true
     }
   ];
 
@@ -84,7 +103,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
         <h2 className="text-2xl font-bold text-gray-900">
           {filteredProducts.length} Products Found
         </h2>
-        <select className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-purple-500">
+        <select className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
           <option>Sort by: Featured</option>
           <option>Price: Low to High</option>
           <option>Price: High to Low</option>

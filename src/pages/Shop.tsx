@@ -4,27 +4,27 @@ import Navbar from '@/components/ecommerce/Navbar';
 import Footer from '@/components/ecommerce/Footer';
 import ProductGrid from '@/components/ecommerce/ProductGrid';
 import FilterSidebar from '@/components/ecommerce/FilterSidebar';
-import { Search, Filter, X } from 'lucide-react';
+import { Search, Filter } from 'lucide-react';
 
 const Shop = () => {
   const [showFilters, setShowFilters] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [priceRange, setPriceRange] = useState([0, 500]);
+  const [priceRange, setPriceRange] = useState([0, 25000]);
 
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
       
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-purple-900 via-pink-800 to-red-800 text-white py-16">
+      <section className="bg-gradient-to-r from-orange-900 via-red-800 to-pink-800 text-white py-16">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Luxe Nights Collection
+              Traditional Indian Wear
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90">
-              Sophisticated party wear for the modern woman
+              Exquisite sarees, lehengas & traditional outfits for the modern Indian woman
             </p>
             
             {/* Search Bar */}
@@ -32,10 +32,10 @@ const Shop = () => {
               <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
               <input
                 type="text"
-                placeholder="Search for dresses, accessories, shoes..."
+                placeholder="Search for sarees, lehengas, half sarees..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 rounded-full text-black text-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
+                className="w-full pl-12 pr-4 py-4 rounded-full text-black text-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
               />
             </div>
           </div>
