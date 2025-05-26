@@ -9,80 +9,80 @@ interface ProductGridProps {
 }
 
 const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory, priceRange }) => {
-  // Traditional wear product data
+  // Modern women's party and modeling wear product data
   const products = [
     {
       id: 1,
-      name: "Banarasi Silk Saree",
-      price: 4999,
-      originalPrice: 7999,
-      image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400",
-      category: "sarees",
+      name: "Sequin Bodycon Dress",
+      price: 2499,
+      originalPrice: 3999,
+      image: "https://images.unsplash.com/photo-1566479179817-c0c9ea11fe3b?w=400",
+      category: "party-dresses",
       isNew: true,
       isSale: true
     },
     {
       id: 2,
-      name: "Kanjeevaram Wedding Saree",
-      price: 8999,
-      image: "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=400",
-      category: "sarees",
+      name: "Glamour Night Gown",
+      price: 4999,
+      image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400",
+      category: "party-dresses",
       isNew: false,
       isSale: false
     },
     {
       id: 3,
-      name: "Designer Half Saree",
-      price: 3499,
-      image: "https://images.unsplash.com/photo-1594736797933-d0c62bee7cd4?w=400",
-      category: "half-sarees",
+      name: "Club Mesh Dress",
+      price: 1899,
+      image: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400",
+      category: "club-wear",
       isNew: true,
       isSale: false
     },
     {
       id: 4,
-      name: "Georgette Party Saree",
-      price: 2899,
-      image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400",
-      category: "sarees",
+      name: "Metallic Mini Dress",
+      price: 3299,
+      image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400",
+      category: "club-wear",
       isNew: false,
       isSale: false
     },
     {
       id: 5,
-      name: "Bridal Lehenga Set",
-      price: 12999,
-      originalPrice: 18999,
-      image: "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=400",
-      category: "lehengas",
+      name: "Runway Model Dress",
+      price: 6999,
+      originalPrice: 9999,
+      image: "https://images.unsplash.com/photo-1506629905607-21867c22e5d2?w=400",
+      category: "modeling-wear",
       isNew: false,
       isSale: true
     },
     {
       id: 6,
-      name: "Cotton Handloom Saree",
-      price: 1299,
-      image: "https://images.unsplash.com/photo-1594736797933-d0c62bee7cd4?w=400",
-      category: "sarees",
+      name: "Cocktail Elegance",
+      price: 2199,
+      image: "https://images.unsplash.com/photo-1585487000160-6ebcb99fd418?w=400",
+      category: "party-dresses",
       isNew: true,
       isSale: false
     },
     {
       id: 7,
-      name: "Chanderi Silk Saree",
+      name: "Velvet Party Dress",
       price: 3799,
-      image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400",
-      category: "sarees",
+      image: "https://images.unsplash.com/photo-1594736797933-d0c62bee7cd4?w=400",
+      category: "party-dresses",
       isNew: false,
       isSale: false
     },
     {
       id: 8,
-      name: "Pattu Half Saree",
-      price: 4599,
-      originalPrice: 6999,
-      image: "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=400",
-      category: "half-sarees",
+      name: "Professional Photoshoot Dress",
+      price: 5599,
+      originalPrice: 7999,
+      image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=400",
+      category: "modeling-wear",
       isNew: true,
       isSale: true
     }
@@ -103,7 +103,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
         <h2 className="text-2xl font-bold text-gray-900">
           {filteredProducts.length} Products Found
         </h2>
-        <select className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
+        <select className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-pink-500">
           <option>Sort by: Featured</option>
           <option>Price: Low to High</option>
           <option>Price: High to Low</option>

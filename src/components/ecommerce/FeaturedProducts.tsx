@@ -6,39 +6,39 @@ const FeaturedProducts = () => {
   const featuredProducts = [
     {
       id: 1,
-      name: "Banarasi Silk Saree",
-      price: 4999,
-      originalPrice: 7999,
-      image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400",
-      category: "sarees",
+      name: "Sequin Bodycon Dress",
+      price: 2499,
+      originalPrice: 3999,
+      image: "https://images.unsplash.com/photo-1566479179817-c0c9ea11fe3b?w=400",
+      category: "party-dresses",
       isNew: true,
       isSale: true
     },
     {
       id: 2,
-      name: "Kanjeevaram Wedding Saree",
-      price: 8999,
-      image: "https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=400",
-      category: "sarees",
+      name: "Glamour Night Gown",
+      price: 4999,
+      image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400",
+      category: "party-dresses",
       isNew: false,
       isSale: false
     },
     {
       id: 3,
-      name: "Designer Half Saree",
-      price: 3499,
-      image: "https://images.unsplash.com/photo-1594736797933-d0c62bee7cd4?w=400",
-      category: "half-sarees",
+      name: "Club Mesh Dress",
+      price: 1899,
+      image: "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400",
+      category: "club-wear",
       isNew: true,
       isSale: false
     },
     {
       id: 4,
-      name: "Bridal Lehenga Set",
-      price: 12999,
-      originalPrice: 18999,
-      image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=400",
-      category: "lehengas",
+      name: "Runway Model Dress",
+      price: 6999,
+      originalPrice: 9999,
+      image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400",
+      category: "modeling-wear",
       isNew: false,
       isSale: true
     }
@@ -52,7 +52,7 @@ const FeaturedProducts = () => {
             Featured Collections
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Handpicked traditional wear that defines timeless Indian elegance
+            Handpicked designer dresses that define modern elegance and confidence
           </p>
         </div>
 
@@ -63,7 +63,7 @@ const FeaturedProducts = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-gradient-to-r from-orange-600 to-red-600 text-white px-8 py-3 rounded-full font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+          <button className="bg-gradient-to-r from-pink-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
             View All Collections
           </button>
         </div>

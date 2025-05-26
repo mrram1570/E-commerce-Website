@@ -10,21 +10,21 @@ const Shop = () => {
   const [showFilters, setShowFilters] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [priceRange, setPriceRange] = useState([0, 25000]);
+  const [priceRange, setPriceRange] = useState([0, 10000]);
 
   return (
     <div className="min-h-screen bg-gray-50">
       <Navbar />
       
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-orange-900 via-red-800 to-pink-800 text-white py-16">
+      <section className="bg-gradient-to-r from-purple-900 via-pink-800 to-rose-800 text-white py-16">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Traditional Indian Wear
+              Svara Collections
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90">
-              Exquisite sarees, lehengas & traditional outfits for the modern Indian woman
+              Stunning party dresses, club wear & modeling outfits for the modern woman
             </p>
             
             {/* Search Bar */}
@@ -32,10 +32,10 @@ const Shop = () => {
               <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
               <input
                 type="text"
-                placeholder="Search for sarees, lehengas, half sarees..."
+                placeholder="Search for party dresses, club wear, modeling outfits..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full pl-12 pr-4 py-4 rounded-full text-black text-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
+                className="w-full pl-12 pr-4 py-4 rounded-full text-black text-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
               />
             </div>
           </div>
