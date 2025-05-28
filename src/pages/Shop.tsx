@@ -17,14 +17,14 @@ const Shop = () => {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-purple-900 via-pink-800 to-rose-800 text-white py-16">
+      <section className="bg-gradient-to-r from-pink-900 via-purple-800 to-rose-800 text-white py-16">
         <div className="container mx-auto px-4">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Svara Collections
+              Fashion Paradise
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90">
-              Stunning party dresses, club wear & modeling outfits for the modern woman
+              Trendy dresses, chic styles & glamorous outfits for the modern young woman
             </p>
             
             {/* Search Bar */}
@@ -32,7 +32,7 @@ const Shop = () => {
               <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
               <input
                 type="text"
-                placeholder="Search for party dresses, club wear, modeling outfits..."
+                placeholder="Search for casual dresses, party wear, date night outfits..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-12 pr-4 py-4 rounded-full text-black text-lg focus:outline-none focus:ring-2 focus:ring-pink-500"

@@ -5,25 +5,25 @@ import { Link } from 'react-router-dom';
 const CategoryShowcase = () => {
   const categories = [
     {
-      id: 'girls-traditional',
-      name: 'Girls Traditional',
-      description: 'Beautiful lehengas, anarkalis and ethnic wear for little princesses',
+      id: 'casual-chic',
+      name: 'Casual Chic',
+      description: 'Comfortable yet stylish everyday dresses perfect for college and casual outings',
+      image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=600&fit=crop&q=80',
+      count: '120+ styles'
+    },
+    {
+      id: 'party-glam',
+      name: 'Party Glam',
+      description: 'Stunning party dresses and cocktail wear for special occasions',
+      image: 'https://images.unsplash.com/photo-1566174532-277ad2705d62?w=400&h=600&fit=crop&q=80',
+      count: '80+ designs'
+    },
+    {
+      id: 'date-night',
+      name: 'Date Night',
+      description: 'Romantic and elegant dresses perfect for dinner dates and romantic evenings',
       image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=600&fit=crop&q=80',
-      count: '150+ styles'
-    },
-    {
-      id: 'boys-traditional',
-      name: 'Boys Traditional',
-      description: 'Elegant kurtas, dhotis and ethnic sets for young gentlemen',
-      image: 'https://images.unsplash.com/photo-1503919005314-30d93d07d823?w=400&h=600&fit=crop&q=80',
-      count: '120+ designs'
-    },
-    {
-      id: 'festive-wear',
-      name: 'Festive Collection',
-      description: 'Special occasion wear for all celebrations and festivals',
-      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=600&fit=crop&q=80',
-      count: '80+ pieces'
+      count: '95+ pieces'
     }
   ];
 
@@ -32,10 +32,10 @@ const CategoryShowcase = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Shop by Category
+            Shop by Style
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            From traditional lehengas to ethnic kurtas - discover authentic Indian wear for children
+            From casual campus looks to glamorous party outfits - find your perfect style for every occasion
           </p>
         </div>
 
@@ -54,10 +54,10 @@ const CategoryShowcase = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <div className="text-sm text-orange-400 mb-2">{category.count}</div>
+                <div className="text-sm text-pink-400 mb-2">{category.count}</div>
                 <h3 className="text-2xl font-bold mb-2">{category.name}</h3>
                 <p className="text-gray-300 mb-4">{category.description}</p>
-                <div className="inline-flex items-center text-orange-400 font-semibold group-hover:gap-2 transition-all">
+                <div className="inline-flex items-center text-pink-400 font-semibold group-hover:gap-2 transition-all">
                   Explore Collection
                   <span className="ml-1 group-hover:ml-2 transition-all">→</span>
                 </div>

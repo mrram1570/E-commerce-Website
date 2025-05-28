@@ -9,80 +9,80 @@ interface ProductGridProps {
 }
 
 const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory, priceRange }) => {
-  // Traditional children's clothing product data
+  // Women's fashion dress product data for ages 15-22
   const products = [
     {
       id: 1,
-      name: "Royal Princess Lehenga",
+      name: "Floral Summer Midi Dress",
       price: 2499,
       originalPrice: 3999,
-      image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=600&fit=crop&q=80",
-      category: "girls-traditional",
+      image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=600&fit=crop&q=80",
+      category: "casual-chic",
       isNew: true,
       isSale: true
     },
     {
       id: 2,
-      name: "Little Prince Kurta Set",
-      price: 1899,
-      image: "https://images.unsplash.com/photo-1503919005314-30d93d07d823?w=400&h=600&fit=crop&q=80",
-      category: "boys-traditional",
+      name: "Elegant Cocktail Dress",
+      price: 3899,
+      image: "https://images.unsplash.com/photo-1566174532-277ad2705d62?w=400&h=600&fit=crop&q=80",
+      category: "party-glam",
       isNew: false,
       isSale: false
     },
     {
       id: 3,
-      name: "Elegant Anarkali Dress",
-      price: 2199,
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=600&fit=crop&q=80",
-      category: "girls-traditional",
+      name: "Romantic Lace Evening Dress",
+      price: 4199,
+      image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=600&fit=crop&q=80",
+      category: "date-night",
       isNew: true,
       isSale: false
     },
     {
       id: 4,
-      name: "Traditional Dhoti Kurta",
-      price: 1699,
-      originalPrice: 2499,
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop&q=80",
-      category: "boys-traditional",
+      name: "Chic Wrap Dress",
+      price: 2799,
+      originalPrice: 3899,
+      image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=600&fit=crop&q=80",
+      category: "casual-chic",
       isNew: false,
       isSale: true
     },
     {
       id: 5,
-      name: "Silk Sharara Set",
-      price: 2799,
-      image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=600&fit=crop&q=80",
-      category: "girls-traditional",
+      name: "Boho Maxi Dress",
+      price: 3299,
+      image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&h=600&fit=crop&q=80",
+      category: "casual-chic",
       isNew: false,
       isSale: false
     },
     {
       id: 6,
-      name: "Festive Nehru Jacket Set",
-      price: 1599,
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=600&fit=crop&q=80",
-      category: "boys-traditional",
+      name: "Sparkly Party Dress",
+      price: 4599,
+      image: "https://images.unsplash.com/photo-1551803091-e20673f15770?w=400&h=600&fit=crop&q=80",
+      category: "party-glam",
       isNew: true,
       isSale: false
     },
     {
       id: 7,
-      name: "Designer Ghagra Choli",
-      price: 3199,
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=600&fit=crop&q=80",
-      category: "girls-traditional",
+      name: "Vintage Inspired A-Line Dress",
+      price: 2899,
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=600&fit=crop&q=80",
+      category: "date-night",
       isNew: false,
       isSale: false
     },
     {
       id: 8,
-      name: "Royal Sherwani Set",
-      price: 2899,
-      originalPrice: 3999,
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=600&fit=crop&q=80",
-      category: "boys-traditional",
+      name: "Glam Sequin Mini Dress",
+      price: 3799,
+      originalPrice: 4999,
+      image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=600&fit=crop&q=80",
+      category: "party-glam",
       isNew: true,
       isSale: true
     }
@@ -103,7 +103,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
         <h2 className="text-2xl font-bold text-gray-900">
           {filteredProducts.length} Products Found
         </h2>
-        <select className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-orange-500">
+        <select className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-pink-500">
           <option>Sort by: Featured</option>
           <option>Price: Low to High</option>
           <option>Price: High to Low</option>

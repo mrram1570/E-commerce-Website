@@ -6,39 +6,39 @@ const FeaturedProducts = () => {
   const featuredProducts = [
     {
       id: 1,
-      name: "Royal Princess Lehenga",
+      name: "Floral Summer Midi Dress",
       price: 2499,
       originalPrice: 3999,
-      image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=600&fit=crop&q=80",
-      category: "girls-traditional",
+      image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=600&fit=crop&q=80",
+      category: "casual-chic",
       isNew: true,
       isSale: true
     },
     {
       id: 2,
-      name: "Little Prince Kurta Set",
-      price: 1899,
-      image: "https://images.unsplash.com/photo-1503919005314-30d93d07d823?w=400&h=600&fit=crop&q=80",
-      category: "boys-traditional",
+      name: "Elegant Cocktail Dress",
+      price: 3899,
+      image: "https://images.unsplash.com/photo-1566174532-277ad2705d62?w=400&h=600&fit=crop&q=80",
+      category: "party-glam",
       isNew: false,
       isSale: false
     },
     {
       id: 3,
-      name: "Elegant Anarkali Dress",
-      price: 2199,
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=600&fit=crop&q=80",
-      category: "girls-traditional",
+      name: "Romantic Lace Evening Dress",
+      price: 4199,
+      image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=600&fit=crop&q=80",
+      category: "date-night",
       isNew: true,
       isSale: false
     },
     {
       id: 4,
-      name: "Traditional Dhoti Kurta",
-      price: 1699,
-      originalPrice: 2499,
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop&q=80",
-      category: "boys-traditional",
+      name: "Chic Wrap Dress",
+      price: 2799,
+      originalPrice: 3899,
+      image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=600&fit=crop&q=80",
+      category: "casual-chic",
       isNew: false,
       isSale: true
     }
@@ -49,10 +49,10 @@ const FeaturedProducts = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Traditional Heritage Collection
+            Trending Now
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Exquisite traditional dresses for boys and girls, celebrating our rich cultural heritage
+            Discover the hottest fashion trends loved by young women worldwide
           </p>
         </div>
 
@@ -63,7 +63,7 @@ const FeaturedProducts = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-gradient-to-r from-orange-600 to-red-600 text-white px-8 py-3 rounded-full font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+          <button className="bg-gradient-to-r from-pink-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
             View All Collections
           </button>
         </div>
