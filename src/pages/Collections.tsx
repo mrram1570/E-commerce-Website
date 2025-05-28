@@ -11,7 +11,7 @@ const Collections = () => {
       id: 'casual-chic',
       name: 'Casual Chic',
       description: 'Effortlessly stylish everyday dresses perfect for college, brunch, and casual outings',
-      image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=600&h=800&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       itemCount: '120+ pieces',
       priceRange: '₹1,999 - ₹4,999'
     },
@@ -19,7 +19,7 @@ const Collections = () => {
       id: 'party-glam',
       name: 'Party Glam',
       description: 'Stunning party dresses and cocktail wear for celebrations and special occasions',
-      image: 'https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=800&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1566174532277-11ac25c40271?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       itemCount: '80+ designs',
       priceRange: '₹3,499 - ₹8,999'
     },
@@ -27,7 +27,7 @@ const Collections = () => {
       id: 'date-night',
       name: 'Date Night',
       description: 'Romantic and elegant dresses perfect for dinner dates and intimate evenings',
-      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=800&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       itemCount: '95+ pieces',
       priceRange: '₹2,799 - ₹6,999'
     }

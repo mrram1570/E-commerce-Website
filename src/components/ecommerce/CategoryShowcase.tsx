@@ -8,21 +8,21 @@ const CategoryShowcase = () => {
       id: 'casual-chic',
       name: 'Casual Chic',
       description: 'Comfortable yet stylish everyday dresses perfect for college and casual outings',
-      image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=600&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       count: '120+ styles'
     },
     {
       id: 'party-glam',
       name: 'Party Glam',
       description: 'Stunning party dresses and cocktail wear for special occasions and celebrations',
-      image: 'https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=600&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1566174532277-11ac25c40271?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       count: '80+ designs'
     },
     {
       id: 'date-night',
       name: 'Date Night',
       description: 'Romantic and elegant dresses perfect for dinner dates and romantic evenings',
-      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=600&fit=crop&q=80',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
       count: '95+ pieces'
     }
   ];
