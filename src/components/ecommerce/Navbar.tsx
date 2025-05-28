@@ -11,46 +11,54 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-            Luxe Nights
+          <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-rose-600 to-pink-600 bg-clip-text text-transparent">
+            Bella Couture
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-purple-600 transition-colors">
+            <Link to="/" className="text-gray-700 hover:text-rose-600 transition-colors font-medium">
               Home
             </Link>
-            <Link to="/shop" className="text-gray-700 hover:text-purple-600 transition-colors">
+            <Link to="/shop" className="text-gray-700 hover:text-rose-600 transition-colors font-medium">
               Shop
             </Link>
-            <a href="#collections" className="text-gray-700 hover:text-purple-600 transition-colors">
+            <Link to="/collections" className="text-gray-700 hover:text-rose-600 transition-colors font-medium">
               Collections
-            </a>
-            <a href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">
+            </Link>
+            <Link to="/about" className="text-gray-700 hover:text-rose-600 transition-colors font-medium">
               About
-            </a>
-            <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">
+            </Link>
+            <Link to="/contact" className="text-gray-700 hover:text-rose-600 transition-colors font-medium">
               Contact
-            </a>
+            </Link>
           </div>
 
           {/* Right Side Icons */}
           <div className="flex items-center space-x-4">
-            <button className="text-gray-700 hover:text-purple-600 transition-colors">
+            <button className="text-gray-700 hover:text-rose-600 transition-colors">
               <Search size={20} />
             </button>
-            <button className="text-gray-700 hover:text-purple-600 transition-colors">
+            <button className="text-gray-700 hover:text-rose-600 transition-colors">
               <Heart size={20} />
             </button>
-            <button className="text-gray-700 hover:text-purple-600 transition-colors">
+            <Link to="/login" className="text-gray-700 hover:text-rose-600 transition-colors">
               <User size={20} />
-            </button>
-            <Link to="/cart" className="text-gray-700 hover:text-purple-600 transition-colors relative">
+            </Link>
+            <Link to="/cart" className="text-gray-700 hover:text-rose-600 transition-colors relative">
               <ShoppingBag size={20} />
-              <span className="absolute -top-2 -right-2 bg-purple-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
+              <span className="absolute -top-2 -right-2 bg-rose-600 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
                 3
               </span>
             </Link>
+            <div className="hidden md:flex items-center space-x-2">
+              <Link to="/login" className="bg-rose-600 text-white px-4 py-2 rounded-lg hover:bg-rose-700 transition-colors text-sm font-medium">
+                Login
+              </Link>
+              <Link to="/register" className="border border-rose-600 text-rose-600 px-4 py-2 rounded-lg hover:bg-rose-50 transition-colors text-sm font-medium">
+                Register
+              </Link>
+            </div>
 
             {/* Mobile Menu Button */}
             <button 
@@ -66,21 +74,29 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t">
             <div className="flex flex-col space-y-4">
-              <Link to="/" className="text-gray-700 hover:text-purple-600 transition-colors">
+              <Link to="/" className="text-gray-700 hover:text-rose-600 transition-colors font-medium">
                 Home
               </Link>
-              <Link to="/shop" className="text-gray-700 hover:text-purple-600 transition-colors">
+              <Link to="/shop" className="text-gray-700 hover:text-rose-600 transition-colors font-medium">
                 Shop
               </Link>
-              <a href="#collections" className="text-gray-700 hover:text-purple-600 transition-colors">
+              <Link to="/collections" className="text-gray-700 hover:text-rose-600 transition-colors font-medium">
                 Collections
-              </a>
-              <a href="#about" className="text-gray-700 hover:text-purple-600 transition-colors">
+              </Link>
+              <Link to="/about" className="text-gray-700 hover:text-rose-600 transition-colors font-medium">
                 About
-              </a>
-              <a href="#contact" className="text-gray-700 hover:text-purple-600 transition-colors">
+              </Link>
+              <Link to="/contact" className="text-gray-700 hover:text-rose-600 transition-colors font-medium">
                 Contact
-              </a>
+              </Link>
+              <div className="flex flex-col space-y-2 pt-4 border-t">
+                <Link to="/login" className="bg-rose-600 text-white px-4 py-2 rounded-lg hover:bg-rose-700 transition-colors text-sm font-medium text-center">
+                  Login
+                </Link>
+                <Link to="/register" className="border border-rose-600 text-rose-600 px-4 py-2 rounded-lg hover:bg-rose-50 transition-colors text-sm font-medium text-center">
+                  Register
+                </Link>
+              </div>
             </div>
           </div>
         )}

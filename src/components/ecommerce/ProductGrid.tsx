@@ -25,7 +25,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
       id: 2,
       name: "Elegant Cocktail Dress",
       price: 3899,
-      image: "https://images.unsplash.com/photo-1566174532-277ad2705d62?w=400&h=600&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1551803091-e20673f15770?w=400&h=600&fit=crop&q=80",
       category: "party-glam",
       isNew: false,
       isSale: false
@@ -62,7 +62,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
       id: 6,
       name: "Sparkly Party Dress",
       price: 4599,
-      image: "https://images.unsplash.com/photo-1551803091-e20673f15770?w=400&h=600&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1566174532-277ad2705d62?w=400&h=600&fit=crop&q=80",
       category: "party-glam",
       isNew: true,
       isSale: false
@@ -103,7 +103,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
         <h2 className="text-2xl font-bold text-gray-900">
           {filteredProducts.length} Products Found
         </h2>
-        <select className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-pink-500">
+        <select className="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-rose-500">
           <option>Sort by: Featured</option>
           <option>Price: Low to High</option>
           <option>Price: High to Low</option>
