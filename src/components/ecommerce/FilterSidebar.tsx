@@ -20,20 +20,19 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
 }) => {
   const categories = [
     { id: 'all', name: 'All Products', count: 156 },
-    { id: 'party-dresses', name: 'Party Dresses', count: 89 },
-    { id: 'club-wear', name: 'Club Wear', count: 34 },
-    { id: 'modeling-wear', name: 'Modeling Wear', count: 23 },
-    { id: 'cocktail', name: 'Cocktail Dresses', count: 10 }
+    { id: 'girls-traditional', name: 'Girls Traditional', count: 89 },
+    { id: 'boys-traditional', name: 'Boys Traditional', count: 54 },
+    { id: 'festive-wear', name: 'Festive Collection', count: 23 }
   ];
 
-  const sizes = ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
+  const sizes = ['2-3Y', '4-5Y', '6-7Y', '8-9Y', '10-11Y', '12-13Y'];
   const colors = [
-    { name: 'Black', color: '#000000' },
-    { name: 'White', color: '#FFFFFF' },
     { name: 'Red', color: '#EF4444' },
-    { name: 'Purple', color: '#8B5CF6' },
+    { name: 'Gold', color: '#F59E0B' },
+    { name: 'Blue', color: '#3B82F6' },
     { name: 'Pink', color: '#EC4899' },
-    { name: 'Gold', color: '#F59E0B' }
+    { name: 'Green', color: '#10B981' },
+    { name: 'Orange', color: '#F97316' }
   ];
 
   return (
@@ -55,7 +54,7 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
               onClick={() => setSelectedCategory(category.id)}
               className={`w-full text-left px-3 py-2 rounded-lg transition-colors ${
                 selectedCategory === category.id
-                  ? 'bg-pink-100 text-pink-700'
+                  ? 'bg-orange-100 text-orange-700'
                   : 'text-gray-600 hover:bg-gray-50'
               }`}
             >
@@ -75,7 +74,7 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
           <Slider
             value={priceRange}
             onValueChange={setPriceRange}
-            max={10000}
+            max={5000}
             min={0}
             step={100}
             className="mb-4"
@@ -89,12 +88,12 @@ const FilterSidebar: React.FC<FilterSidebarProps> = ({
 
       {/* Sizes */}
       <div className="mb-8">
-        <h4 className="font-semibold text-gray-900 mb-4">Sizes</h4>
+        <h4 className="font-semibold text-gray-900 mb-4">Age Groups</h4>
         <div className="grid grid-cols-3 gap-2">
           {sizes.map(size => (
             <button
               key={size}
-              className="border border-gray-300 rounded-lg py-2 text-center text-sm hover:border-pink-500 hover:text-pink-600 transition-colors"
+              className="border border-gray-300 rounded-lg py-2 text-center text-sm hover:border-orange-500 hover:text-orange-600 transition-colors"
             >
               {size}
             </button>

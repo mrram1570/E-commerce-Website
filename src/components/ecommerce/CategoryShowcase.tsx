@@ -5,25 +5,25 @@ import { Link } from 'react-router-dom';
 const CategoryShowcase = () => {
   const categories = [
     {
-      id: 'party-dresses',
-      name: 'Party Dresses',
-      description: 'Stunning dresses for unforgettable nights',
-      image: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=600&fit=crop&q=80',
-      count: '300+ styles'
+      id: 'girls-traditional',
+      name: 'Girls Traditional',
+      description: 'Beautiful lehengas, anarkalis and ethnic wear for little princesses',
+      image: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=600&fit=crop&q=80',
+      count: '150+ styles'
     },
     {
-      id: 'club-wear',
-      name: 'Club Wear',
-      description: 'Bold outfits for the dance floor',
-      image: 'https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=600&fit=crop&q=80',
-      count: '200+ designs'
+      id: 'boys-traditional',
+      name: 'Boys Traditional',
+      description: 'Elegant kurtas, dhotis and ethnic sets for young gentlemen',
+      image: 'https://images.unsplash.com/photo-1503919005314-30d93d07d823?w=400&h=600&fit=crop&q=80',
+      count: '120+ designs'
     },
     {
-      id: 'modeling-wear',
-      name: 'Modeling Wear',
-      description: 'Professional runway and photoshoot attire',
-      image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=600&fit=crop&q=80',
-      count: '150+ pieces'
+      id: 'festive-wear',
+      name: 'Festive Collection',
+      description: 'Special occasion wear for all celebrations and festivals',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=600&fit=crop&q=80',
+      count: '80+ pieces'
     }
   ];
 
@@ -35,7 +35,7 @@ const CategoryShowcase = () => {
             Shop by Category
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            From glamorous party dresses to professional modeling wear - find your perfect look
+            From traditional lehengas to ethnic kurtas - discover authentic Indian wear for children
           </p>
         </div>
 
@@ -54,10 +54,10 @@ const CategoryShowcase = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
               
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                <div className="text-sm text-pink-400 mb-2">{category.count}</div>
+                <div className="text-sm text-orange-400 mb-2">{category.count}</div>
                 <h3 className="text-2xl font-bold mb-2">{category.name}</h3>
                 <p className="text-gray-300 mb-4">{category.description}</p>
-                <div className="inline-flex items-center text-pink-400 font-semibold group-hover:gap-2 transition-all">
+                <div className="inline-flex items-center text-orange-400 font-semibold group-hover:gap-2 transition-all">
                   Explore Collection
                   <span className="ml-1 group-hover:ml-2 transition-all">→</span>
                 </div>

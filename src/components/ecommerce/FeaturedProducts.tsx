@@ -6,39 +6,39 @@ const FeaturedProducts = () => {
   const featuredProducts = [
     {
       id: 1,
-      name: "Sequin Bodycon Dress",
+      name: "Royal Princess Lehenga",
       price: 2499,
       originalPrice: 3999,
-      image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=600&fit=crop&q=80",
-      category: "party-dresses",
+      image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=400&h=600&fit=crop&q=80",
+      category: "girls-traditional",
       isNew: true,
       isSale: true
     },
     {
       id: 2,
-      name: "Glamour Night Gown",
-      price: 4999,
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=600&fit=crop&q=80",
-      category: "party-dresses",
+      name: "Little Prince Kurta Set",
+      price: 1899,
+      image: "https://images.unsplash.com/photo-1503919005314-30d93d07d823?w=400&h=600&fit=crop&q=80",
+      category: "boys-traditional",
       isNew: false,
       isSale: false
     },
     {
       id: 3,
-      name: "Club Mesh Dress",
-      price: 1899,
-      image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=600&fit=crop&q=80",
-      category: "club-wear",
+      name: "Elegant Anarkali Dress",
+      price: 2199,
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=600&fit=crop&q=80",
+      category: "girls-traditional",
       isNew: true,
       isSale: false
     },
     {
       id: 4,
-      name: "Runway Model Dress",
-      price: 6999,
-      originalPrice: 9999,
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=600&fit=crop&q=80",
-      category: "modeling-wear",
+      name: "Traditional Dhoti Kurta",
+      price: 1699,
+      originalPrice: 2499,
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop&q=80",
+      category: "boys-traditional",
       isNew: false,
       isSale: true
     }
@@ -49,10 +49,10 @@ const FeaturedProducts = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Featured Collections
+            Traditional Heritage Collection
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Handpicked designer dresses that define modern elegance and confidence
+            Exquisite traditional dresses for boys and girls, celebrating our rich cultural heritage
           </p>
         </div>
 
@@ -63,7 +63,7 @@ const FeaturedProducts = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-gradient-to-r from-pink-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+          <button className="bg-gradient-to-r from-orange-600 to-red-600 text-white px-8 py-3 rounded-full font-semibold text-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
             View All Collections
           </button>
         </div>
