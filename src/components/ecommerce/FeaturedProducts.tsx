@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ProductCard from './ProductCard';
 
@@ -8,7 +9,7 @@ const FeaturedProducts = () => {
       name: "Sequin Bodycon Dress",
       price: 2499,
       originalPrice: 3999,
-      image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=600&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=600&fit=crop&q=80",
       category: "party-dresses",
       isNew: true,
       isSale: true
@@ -17,7 +18,7 @@ const FeaturedProducts = () => {
       id: 2,
       name: "Glamour Night Gown",
       price: 4999,
-      image: "https://images.unsplash.com/photo-1566479179817-c0d956be1cb1?w=400&h=600&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=600&fit=crop&q=80",
       category: "party-dresses",
       isNew: false,
       isSale: false
@@ -26,7 +27,7 @@ const FeaturedProducts = () => {
       id: 3,
       name: "Club Mesh Dress",
       price: 1899,
-      image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&h=600&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=400&h=600&fit=crop&q=80",
       category: "club-wear",
       isNew: true,
       isSale: false
@@ -36,7 +37,7 @@ const FeaturedProducts = () => {
       name: "Runway Model Dress",
       price: 6999,
       originalPrice: 9999,
-      image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&h=600&fit=crop&q=80",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=600&fit=crop&q=80",
       category: "modeling-wear",
       isNew: false,
       isSale: true
