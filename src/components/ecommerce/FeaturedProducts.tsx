@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
@@ -11,7 +10,7 @@ const FeaturedProducts = () => {
       name: "Floral Summer Midi Dress",
       price: 2499,
       originalPrice: 3999,
-      image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&h=1000&fit=crop&crop=center",
       category: "casual-chic",
       isNew: true,
       isSale: true
@@ -20,7 +19,7 @@ const FeaturedProducts = () => {
       id: 2,
       name: "Elegant Cocktail Dress",
       price: 3899,
-      image: "https://images.unsplash.com/photo-1566174532277-11ac25c40271?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&h=1000&fit=crop&crop=center",
       category: "party-glam",
       isNew: false,
       isSale: false
@@ -29,7 +28,7 @@ const FeaturedProducts = () => {
       id: 3,
       name: "Romantic Lace Evening Dress",
       price: 4199,
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=800&h=1000&fit=crop&crop=center",
       category: "date-night",
       isNew: true,
       isSale: false
@@ -39,7 +38,7 @@ const FeaturedProducts = () => {
       name: "Chic Wrap Dress",
       price: 2799,
       originalPrice: 3899,
-      image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1582142306909-195724d33dca?w=800&h=1000&fit=crop&crop=center",
       category: "casual-chic",
       isNew: false,
       isSale: true

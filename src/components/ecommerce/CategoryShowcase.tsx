@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -8,21 +7,21 @@ const CategoryShowcase = () => {
       id: 'casual-chic',
       name: 'Casual Chic',
       description: 'Comfortable yet stylish everyday dresses perfect for college and casual outings',
-      image: 'https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&h=1200&fit=crop&crop=center',
       count: '120+ styles'
     },
     {
       id: 'party-glam',
       name: 'Party Glam',
       description: 'Stunning party dresses and cocktail wear for special occasions and celebrations',
-      image: 'https://images.unsplash.com/photo-1566174532277-11ac25c40271?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&h=1200&fit=crop&crop=center',
       count: '80+ designs'
     },
     {
       id: 'date-night',
       name: 'Date Night',
       description: 'Romantic and elegant dresses perfect for dinner dates and romantic evenings',
-      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=800&h=1200&fit=crop&crop=center',
       count: '95+ pieces'
     }
   ];
@@ -66,7 +65,6 @@ const CategoryShowcase = () => {
                 </div>
               </div>
               
-              {/* Decorative elements */}
               <div className="absolute top-4 right-4 w-2 h-2 bg-rose-400 rounded-full opacity-60 group-hover:opacity-100 transition-opacity"></div>
               <div className="absolute top-8 right-6 w-1 h-1 bg-pink-400 rounded-full opacity-40 group-hover:opacity-80 transition-opacity"></div>
             </Link>

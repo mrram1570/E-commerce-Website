@@ -16,7 +16,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
       name: "Floral Summer Midi Dress",
       price: 2499,
       originalPrice: 3999,
-      image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=800&h=1000&fit=crop&crop=center",
       category: "casual-chic",
       isNew: true,
       isSale: true
@@ -25,7 +25,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
       id: 2,
       name: "Elegant Cocktail Dress",
       price: 3899,
-      image: "https://images.unsplash.com/photo-1566174532277-11ac25c40271?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&h=1000&fit=crop&crop=center",
       category: "party-glam",
       isNew: false,
       isSale: false
@@ -34,7 +34,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
       id: 3,
       name: "Romantic Lace Evening Dress",
       price: 4199,
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=800&h=1000&fit=crop&crop=center",
       category: "date-night",
       isNew: true,
       isSale: false
@@ -44,7 +44,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
       name: "Chic Wrap Dress",
       price: 2799,
       originalPrice: 3899,
-      image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1582142306909-195724d33dca?w=800&h=1000&fit=crop&crop=center",
       category: "casual-chic",
       isNew: false,
       isSale: true
@@ -53,7 +53,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
       id: 5,
       name: "Boho Maxi Dress",
       price: 3299,
-      image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1566174532577-c7c8e8c8e0f8?w=800&h=1000&fit=crop&crop=center",
       category: "casual-chic",
       isNew: false,
       isSale: false
@@ -62,7 +62,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
       id: 6,
       name: "Sparkly Party Dress",
       price: 4599,
-      image: "https://images.unsplash.com/photo-1583394838336-acd977736f90?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1566174532300-65b4bb7a5d76?w=800&h=1000&fit=crop&crop=center",
       category: "party-glam",
       isNew: true,
       isSale: false
@@ -71,7 +71,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
       id: 7,
       name: "Vintage Inspired A-Line Dress",
       price: 2899,
-      image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=1000&fit=crop&crop=center",
       category: "date-night",
       isNew: false,
       isSale: false
@@ -81,7 +81,7 @@ const ProductGrid: React.FC<ProductGridProps> = ({ searchQuery, selectedCategory
       name: "Glam Sequin Mini Dress",
       price: 3799,
       originalPrice: 4999,
-      image: "https://images.unsplash.com/photo-1566174532522-e72a9b10c515?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=800&h=1000&fit=crop&crop=center",
       category: "party-glam",
       isNew: true,
       isSale: true
